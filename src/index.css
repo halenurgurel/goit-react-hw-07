@@ -1,0 +1,6 @@
+/* App.module.css veya index.css */
+body {
+  font-family: "Inter", sans-serif; /* Az önce eklediğimiz modern font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

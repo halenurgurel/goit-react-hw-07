@@ -1,0 +1,40 @@
+.item {
+  background: #ffffff;
+  border: 1px solid #f1f2f6;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.info p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.number {
+  font-size: 0.85rem;
+  color: #b2bec3;
+}
+
+.deleteBtn {
+  background-color: #ff7675;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.deleteBtn:hover {
+  background-color: #d63031;
+}
